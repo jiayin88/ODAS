@@ -10,20 +10,20 @@ import javax.swing.*;
 public class Cropping extends JLabel
 {
     /**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
+    * 
+    */
+    private static final long serialVersionUID = 1L;
 
-	public BufferedImage image;
+    public BufferedImage image;
     public Dimension size;
     public Rectangle clip;
     public boolean showClip;
-	public static BufferedImage clipped;
+    public static BufferedImage clipped;
     static JFrame f = new JFrame();
-	static JScrollPane p = new JScrollPane();
-	public static int xResult;
-	public static String eyeImage;
-	static int x;
+    static JScrollPane p = new JScrollPane();
+    public static int xResult;
+    public static String eyeImage;
+    static int x;
     static int y;
 	
     public Cropping(BufferedImage image)
@@ -81,7 +81,7 @@ public class Cropping extends JLabel
     {
         try
         {
-        	double w = 600;
+            double w = 600;
             double h = 600;
             int x0 = 0;
             int y0 = 0;
